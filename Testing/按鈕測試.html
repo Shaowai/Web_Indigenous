@@ -1,0 +1,126 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Buttom A</title>
+	<!--
+	<script type="text/javascript">
+		
+		window.onload=function(){
+			var ButtomA02 = document.getElementById("Buttom_A02");
+			var ButtomA03 = document.getElementById("Buttom_A03");
+			
+			ButtomA03.addEventListener("mouseover", function(){
+				ButtomA02.style.opacity = 1;
+				ButtomA02.style.backgroundColor = "red";
+			});
+			
+			ButtomA03.addEventListener("mouseout", function(){
+				ButtomA02.style.opacity = 0;
+			});
+		};
+		
+	</script>
+	-->
+	<script type="text/javascript" language="javascript" src="js\Button_A.js"></script>
+	
+	<link href="css\Button.css" rel="stylesheet" type="text/css" />
+	<!--
+	<style type="text/css">
+		.Button_A{
+			top: 100px;
+			left: 80px;
+			position: absolute;
+		}
+		
+		.Button_A01{
+			border-color: white;
+			border-style: solid;
+			border-width:1px;
+			
+			width:200px;
+			height:100px;
+					
+			top: 50px;
+			left: 50px;
+			position: absolute;
+			z-index: 3;
+		} 
+		
+		.Button_A02{		
+			width:202px;
+			height:102px;
+			
+			background-color:;
+			opacity:0;
+			
+			transition:	opacity 0.5s, 
+						background-color 1s;
+			
+			top: 50px;
+			left: 50px;
+			position: absolute;
+			z-index: 4;
+		}  
+		
+		.Button_A03{
+			text-align:center;
+			line-height: 100px;
+			
+			width:202px;
+			height:102px;
+			
+			top: 50px;
+			left: 50px;
+			position: absolute;
+			z-index: 5;
+			
+			cursor:pointer;	
+		} 
+		
+
+		.text_A01{
+			text-decoration: none;
+			
+			color : white;
+			font-family:宋体,Arial;
+			font-size: 30px; 
+			font-weight:normal; 
+			font-style:normal;
+		}
+
+		
+		.background{
+			width:500px;
+			height:500px;
+			background-color: #000;
+			
+			top: 0px;
+			left: 0px;
+			position: absolute;
+			z-index: 0;
+		}
+		
+	</style>
+	-->
+</head>
+
+<body>
+
+	<div class="background"></div>
+<!-- 分隔 -->
+	<div class="Button_A-Style">
+		<div class="Button_A01"></div>
+		<div class="Button_A02" id="Button_A02"></div>
+		<a 	href="https://www.google.com.tw/"
+			class="Button_A03 text_A01" 
+			id="Button_A03">
+			<span>點擊跳轉</span>
+		</a>
+	</div>
+
+	
+	
+	
+	
+</body>
+</html>

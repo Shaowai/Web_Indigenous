@@ -1,0 +1,79 @@
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.Button-D-Style{
+			top:0px;
+			left:0px;
+			position:absolute;	
+		}
+		
+		
+		.Button-D02{
+			width: 400px;
+			height:300px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+
+			z-index:4;
+
+		}/*相片框架_1-img*/
+		
+		.Button-D03{
+			width:40px;
+			height:40px;
+			background-color:;
+			
+			top:170px;
+			left:220px;
+			position:absolute;
+			
+			opacity:0;
+			
+			transition:	opacity 0.2s;
+			
+			z-index:5;
+			
+		}/*Logo-img*/
+
+
+		.Button-D09{
+			width: 400px;
+			height:300px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+
+			z-index:6;
+			
+			cursor:pointer;
+		}/*超鏈結框架*/
+		
+		
+		
+		#Box-Button_D-01{
+			top:;
+			left:;
+			position:absolute;
+		}
+		
+		#Box-Button_D-02{
+			top:;
+			left:;
+			position:absolute;
+		}
+		#Box-Button_D-03{
+			top:;
+			left:;
+			position:absolute;
+		}

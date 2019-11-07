@@ -1,0 +1,1400 @@
+
+/*
+	style:  以名字定義
+	   id： 以編號定義 
+
+*/
+	
+/*整體框架結構定義為 A系*/	
+	
+	.Box-background_A{
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		opacity:0.2;
+	
+	}/*背景圖A*/
+	
+	.Box-background_B{
+		
+		width:100%;
+		height:20px;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		background-image:url(../img/Bottom/Bottom-V1_1.png);
+		background-repeat: repeat-x;
+		
+		opacity:1;
+	
+	}/*分隔圖A*/
+		
+/*Box-Outside--------------------------------------------------------*/	
+	
+	.Box-Outside_Line{	
+		width:0px;
+		height:1400px;
+
+		border-color: rgb(199,221,157);
+		border-style: dotted;
+		border-width:3px;
+		
+		background-color: ;
+		
+		margin-right: -960px;
+		
+		top: 1100px;
+		left: 50%;
+		position: absolute;
+		
+		z-index:20;
+	
+	}/*index.html-中間虛線*/
+	
+	.Box-Outside_Down{
+		width:60px;
+		height:32px;
+		
+		margin-left:-25px;
+
+		left: 50%;
+		position: absolute;
+		
+		z-index:21;
+	}
+	
+	#Box-Outside_Down-01{
+		top: 880px;
+	}
+	
+	#Box-Outside_Down-02{
+		top: 2550px;
+	}
+	
+	/*大樹背景*/
+		.Box-Outside_Logo-Tree{
+			width:1500px;
+			height:1500px;	
+			
+			opacity:0.5;
+			
+			margin-left:-750px;
+			
+			top:1100px;
+			left:50%;
+			position:absolute;
+			
+			z-index:10;
+		}
+	
+/*Box-Top--------------------------------------------------------*/
+/* B,C系*/
+
+	.Box-Top{
+		width: 100%;
+		height: 70px;
+		background-color: ;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+
+	}/*Box-A01*/
+	
+	/*左上角框架定義：B系*/
+		#Box-B01{
+			width: 700px;
+			height: 70px;
+			background-color: rgb(111,157,53);
+			
+			top: 0px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+			
+		}/*框架*/
+		
+		#Box-B02-Logo{
+			width: 300px;
+			height: 70px;
+			background-color: rgb(111,157,53);
+
+			top:0px;
+			left:240px;
+			position:absolute;
+			
+			z-index: 12;
+			
+		}/*Box-B02*/
+			
+		#Box-B03-shortcut{
+			width: 160px;
+			height: 70px;
+			background-color: rgb(65,104,21);
+
+			top:0px;
+			left:540px;
+			position:absolute;
+			
+			z-index: 12;
+			
+		}/*Box-B03*/
+		
+
+	/*右上角框架定義（Login）：C系*/
+		#Box-C01{
+			width: 300px;
+			height: 70px;
+			background-color: ;
+			
+			margin-left:-150px;
+			
+			padding-top:5px;
+			
+			top:0px;
+			left:90%;
+			position:absolute;
+			
+			z-index: 11;
+			
+		}/*Box-C01*/
+		
+		div.search {
+			padding:10px 0;
+		}
+		form {
+			position:relative;
+			width:300px;
+			margin:0 auto;
+		}
+		input,button {
+			border:none;
+			outline:none;
+		}
+		input {
+			width:100%;
+			height:42px;
+			padding-left:13px;
+		}
+		button {
+			height:42px;
+			width:42px;
+			cursor:pointer;
+			position:absolute;
+		}
+		/*搜索框6*/
+			 
+		.bar6 input {
+			background:transparent;
+			
+			border:2px solid rgb(111,157,53);
+			border-radius:5px;
+			
+			top:0;
+			right:0;
+
+		}
+		
+		.bar6 button {
+			width:60px;
+			background:rgb(111,157,53);
+			
+			border-radius:0 5px 5px 0;
+			
+			top:0;
+			right:0;
+
+		}
+		
+		.bar6 button:before {
+			content:"搜尋";
+			font-size:13px;
+			color:#FFF;
+		}/*字-定義*/
+		
+		
+/*Box-Functions--------------------------------------------------------*/
+/* D系*/	
+	.Box-Functions{
+		width: 100%;
+		height: 110px;
+		background-color:;
+		
+		top: 70px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A02*/
+		
+	/*functions框架定義：D系*/
+		.Box-D-z_index12-Style{
+			
+			width: 180px;
+			height: 110px;
+			background-color:;
+			
+			z-index: 12;
+			
+		}/*Box-D00*/
+			
+		#Box-D01{
+			
+			width: 1500px;
+			height: 110px;
+			background-color:;
+			
+			margin: 0px -750px;
+			
+			left: 50%;
+			position: absolute;
+			
+			z-index: 11;
+			
+			
+		}/*Box-D01*/	
+	
+		#Box-D02{
+			
+			top: 0px;
+			left: 5%;
+			position: absolute;	
+			
+		}/*Box-D02*/
+
+		#Box-D03{
+			
+			top: 0px;
+			left: 20%;
+			position: absolute;	
+			
+		}/*Box-D03*/
+
+		#Box-D04{
+			
+			top: 0px;
+			left: 35%;
+			position: absolute;	
+			
+		}/*Box-D04*/
+		
+		#Box-D05{
+			
+			top: 0px;
+			left: 50%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+		
+		#Box-D06{
+			
+			top: 0px;
+			left: 65%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+		
+		#Box-D07{
+			
+			top: 0px;
+			left: 80%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+	
+/*Box-mainContent_home-1--------------------------------------------------------*/	
+	.Box-mainContent_home-1{
+		width: 100%;
+		height: 698px;
+		background-color: #00ffff;
+		
+		top: 180px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A03  //banner上方*/
+	
+	/*mainContent_home-1-Explore*/
+		.Box-mainContent_home-1_Explore{
+			width: 100%;
+			height: 1500px;
+			background-color:;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+			
+		}/*mainContent_home-1-Explore*/
+			
+		.Box-Explore{
+			width: 1200px;
+			height: 1500px;
+			background-color: #FFF;
+			
+			opacity:0.8;
+			
+			margin:0px -600px;
+			
+			top:0px;
+			left:50%;
+			position:absolute;
+			
+			z-index: 11;
+		}/*框架*/
+		
+		.Box-Explore_Content-Top{
+			width: 1150px;
+			height: 170px;
+			background-color:;
+			
+			top: 15px;
+			left: 25px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}/*上 Logo*/
+		
+		.Box-Explore_Content-Top_Logo01{
+			top: 100px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+		
+		}/*Logo:植物分隔條*/
+		
+		/*Title：探索台灣標題*/
+		.Box-Title-Explore-01{
+			width: 500px;
+			height: 200px;
+			background-color:;
+			
+			top: -20px;
+			left: 50px;
+			position: absolute;
+			
+			z-index: 12;
+			
+		}/*Title-框架*/
+		
+		.Box-Logo-Explore-01{
+			width: 1200px;
+			height: 150px;
+			
+			top: 190px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+			
+		}/*Logo:長矛*/
+		
+		/*木板Function*/	
+		#Box-Logo-Explore02-01{
+			top: 320px;			
+		}/*Logo:01*/
+		
+		#Box-Logo-Explore02-02{
+			top: 482px;	
+		}/*Logo:02*/
+		
+		#Box-Logo-Explore02-03{
+			top: 644px;	
+		}/*Logo:03*/
+		
+		#Box-Logo-Explore02-04{
+			top: 806px;	
+		}/*Logo:04*/
+		
+		#Box-Logo-Explore02-05{
+			top: 968px;	
+		}/*Logo:05*/
+		
+		/*Logo:大樹背景*/
+		.Box-Logo-Explore-02{
+			width: 900px;
+			height: 740px;
+			
+			top: 350px;
+			left: 300px;
+			position: absolute;
+			
+			z-index: 11;
+		}
+	
+	/*mainContent_home-1-News*/
+		.Box-mainContent_home-1_News{
+			width: 100%;
+			height: 1000px;
+			background-color: ;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+			
+		}
+		
+		.Box-Logo-v1_1-Style{
+			width: 60px;
+			height: 750px;
+			background-color:;
+			
+			top: 200px;
+			left: 590px;
+			position: absolute;
+			
+			z-index: 10;
+		}/*時鐘Logo*/
+	
+		#Box-Logo-v1_1-01{			
+			left:0;
+			top:45px;
+			position:absolute;	
+		}
+		#Box-Logo-v1_1-02{			
+			left:0;
+			top:165px;
+			position:absolute;	
+		}
+		
+		#Box-News_Style{
+			width:900px;
+			height:740px;
+			background-color:;
+			
+			left:600px;
+			top:200px;
+			position:absolute;
+		}
+		
+		#Box-News_01{			
+			left:45px;
+			top:0px;
+			position:absolute;	
+		}
+		
+		#Box-News_02{			
+			left:45px;
+			top:120px;
+			position:absolute;	
+		}
+		
+		#Box-News_03{			
+			left:45px;
+			top:240px;
+			position:absolute;	
+		}
+		
+		#Box-News_04{			
+			left:45px;
+			top:360px;
+			position:absolute;	
+		}
+		
+		#Box-News_05{			
+			left:45px;
+			top:480px;
+			position:absolute;	
+		}
+		
+		#Box-News_06{			
+			left:45px;
+			top:600px;
+			position:absolute;	
+		}
+	
+	/*mainContent_home-1-EthnicGroup*/
+	
+		.Box-mainContent_home-1_EthnicGroup{
+			width: 100%;
+			height: 1500px;
+			background-color: ;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}/*mainContent_home-1-EthnicGroup*/
+		
+		.Box-EthnicGroup{
+			width: 1200px;
+			height: 1500px;
+			background-color: rgb(250,250,250);
+			
+			opacity:0.8;
+			
+			margin:0px -600px;
+			
+			top:0px;
+			left:50%;
+			position:absolute;
+			
+			z-index: 11;
+		}/*框架*/
+		
+		/*EthnicGroup 首頁Style*/
+			.Box-EthnicGroup_Home-BG{
+				top:200px;
+				left:150px;
+				position:absolute;
+				
+			}/*大樹BG*/
+			
+			#Box-EthnicGroup_Home-Name00{
+				top:200px;
+				left:820px;
+				position:absolute;
+				
+			}/*族群名稱00*/
+			
+			#Box-EthnicGroup_Home-Name01{
+				top:320px;
+				left:930px;
+				position:absolute;
+				
+			}/*族群名稱01*/
+			
+			#Box-EthnicGroup_Home-Name02{
+				top:450px;
+				left:900px;
+				position:absolute;
+				
+			}/*族群名稱02*/
+			
+			#Box-EthnicGroup_Home-Name03{
+				top:560px;
+				left:790px;
+				position:absolute;
+				
+			}/*族群名稱03*/
+			
+			#Box-EthnicGroup_Home-Name04{
+				top:700px;
+				left:760px;
+				position:absolute;
+				
+			}/*族群名稱04*/
+			
+			#Box-EthnicGroup_Home-Name05{
+				top:280px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱05*/
+			
+			#Box-EthnicGroup_Home-Name06{
+				top:400px;
+				left:550px;
+				position:absolute;
+				
+			}/*族群名稱06*/
+			
+			#Box-EthnicGroup_Home-Name07{
+				top:550px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱07*/
+			
+			#Box-EthnicGroup_Home-Name08{
+				top:700px;
+				left:550px;
+				position:absolute;
+				
+			}/*族群名稱08*/
+			
+			#Box-EthnicGroup_Home-Name09{
+				top:900px;
+				left:800px;
+				position:absolute;
+				
+			}/*族群名稱09*/
+			
+			#Box-EthnicGroup_Home-Name10{
+				top:600px;
+				left:400px;
+				position:absolute;
+				
+			}/*族群名稱10*/
+			
+			#Box-EthnicGroup_Home-Name11{
+				top:700px;
+				left:200px;
+				position:absolute;
+				
+			}/*族群名稱11*/
+			
+			#Box-EthnicGroup_Home-Name12{
+				top:800px;
+				left:380px;
+				position:absolute;
+				
+			}/*族群名稱12*/
+			
+			#Box-EthnicGroup_Home-Name13{
+				top:860px;
+				left:200px;
+				position:absolute;
+				
+			}/*族群名稱13*/
+			
+			#Box-EthnicGroup_Home-Name14{
+				top:400px;
+				left:300px;
+				position:absolute;
+				
+			}/*族群名稱14*/
+			
+			#Box-EthnicGroup_Home-Name15{
+				top:950px;
+				left:420px;
+				position:absolute;
+				
+			}/*族群名稱15*/
+			
+			#Box-EthnicGroup_Home-Name16{
+				top:820px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱16*/
+			
+			#Box-EthnicGroup_Home-Name17{
+				top:480px;
+				left:330px;
+				position:absolute;
+				
+			}/*族群名稱00*/
+			
+		
+		.Box-EthnicGroup-Top{
+			width: 1150px;
+			height: 170px;
+			background-color: ;
+			
+			top: 15px;
+			left: 25px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}
+		
+		.Box-EthnicGroup-Content{
+			width: 900px;
+			height: 1300px;
+			background-color:;
+			
+			top:200px;
+			left:270px;
+			position:absolute;
+		}
+		
+		.Box-EthnicGroup-TitleLine{
+			width: 900px;
+			height: 3px;
+			background-color: rgb(162,195,120);
+			
+			top:100px;
+			left:0px;
+			position:absolute;
+		}/*題目分隔線*/
+		
+		.Box-EthnicGroup-Content_Title{
+			width: 700px;
+			height: 80px;
+			background-color: ;
+			
+			top:10px;
+			left:150px;
+			position:absolute;
+		}/*題目*/
+		
+		.Box-EthnicGroup-Content_UnderLine{
+			width: 825px;
+			height: 1100px;
+			background-color: ;
+			
+			top:150px;
+			left:50px;
+			position:absolute;
+			
+			z-index:12;
+		}/*內容框——題目分割線下的部分*/
+		
+		
+	/*EthnicGroup-圖片*/
+		#Box-EthnicGroup-Content_01v1_1{		
+			padding: 20px 20px 60px 20px;
+			float: left;
+		}
+		#Box-EthnicGroup-Content_01v1_1-Explain{		
+			width: 450px;
+			height: 50px;
+			background-color: ;
+			
+			top:330px;
+			left:20px;
+			position:absolute;
+			
+			z-index:13;
+		}/*圖片來源-01*/
+		
+		
+	/*圖片-END*/
+	
+		/*EthnicGroup-Functions*/	
+		.Box-EthnicGroup-Functions{
+			width: 250px;
+			height: 1300px;
+			background-color:;
+			
+			top:200px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 11;
+		}
+		
+		.Box-EthnicGroup-Title{
+			width: 250px;
+			height: 120px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 12;
+		}
+		
+		.Box-EthnicGroup-BG{
+			width: 150px;
+			height: 430px;
+			background-color: rgb(246,241,148);
+			
+			border-top-right-radius:30px;
+			border-top-left-radius:10px;
+			border-bottom-right-radius:10px;
+			border-bottom-left-radius:10px;
+			
+			top:120px;
+			left:30px;
+			position:absolute;
+			
+			z-index: 3;
+		}
+		
+		#Box-EthnicGroup-01{
+			left:40px;
+			top:150px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-02{
+			left:40px;
+			top:210px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-03{
+			left:40px;
+			top:270px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-04{
+			left:40px;
+			top:330px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-05{
+			left:40px;
+			top:390px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-06{
+			left:40px;
+			top:450px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-07{
+			left:40px;
+			top:510px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-08{
+			left:40px;
+			top:570px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-09{
+			left:40px;
+			top:630px;
+			position:absolute;
+		}
+	
+	/*mainContent_home-1-Calendar*/
+		
+		.Box-Calendar-Style{
+			width:1499px;
+			height:1122px;
+			
+			background-color:red;
+			
+			top:250px;
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+		.Box-Calendar-BG{
+			width:375px;
+			height:374px;
+			
+			background-image:url(../img/Calendar/Calendar-v1_1.png);
+			background-size:375px 374px;
+			background-repeat:no-repeat;
+		}/*日曆背景圖*/
+				
+			#Box-Calendar-BG_1{
+				top:0px;
+				left:0px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_2{
+				top:0px;
+				left:375px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_3{
+				top:0px;
+				left:750px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_4{
+				top:0px;
+				left:1125px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_5{
+				top:374px;
+				left:0px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_6{
+				top:374px;
+				left:375px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_7{
+				top:374px;
+				left:750px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_8{
+				top:374px;
+				left:1125px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_9{
+				top:748px;
+				left:0px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_10{
+				top:748px;
+				left:375px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_11{
+				top:748px;
+				left:750px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_12{
+				top:748px;
+				left:1125px;
+				position:absolute;
+			}
+		
+		.Box-Calendar_Word-Month{
+			width:375px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:13;
+		}/*字_月份框架*/
+		
+		.Box-Calendar_Word-Content{
+			width:375px;
+			height:274px;
+			background-color:;
+			
+			top:100px;
+			left:0px;
+			position:absolute;
+			
+			z-index:13;
+		}/*內容框架*/
+		
+	/*Tribe*/	
+		.Box-Tribe_Content-Style{
+			width: 825px;
+			height: 50px;
+			background-color:;
+			
+			border-top:1px solid rgb(180,206,146);
+			
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+		.Box-Tribe_Title{
+			width: 225px;
+			height: 50px;
+			background-color:;
+			
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+		.Box-Tribe_Content{
+			width: 550px;
+			height: 50px;
+			background-color:;
+			
+			left:275px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+			#Box-Tribe-Style_02{
+				top:60px;
+			}
+			
+			#Box-Tribe-Style_03{
+				top:120px;
+			}
+			
+			#Box-Tribe-Style_04{
+				top:180px;
+			}
+			
+			#Box-Tribe-Style_05{
+				top:240px;
+			}
+			
+			#Box-Tribe-Style_06{
+				top:600px;
+			}
+			
+			#Box-Tribe-Style_07{
+				top:660px;
+			}
+			
+			#Box-Tribe-Style_08{
+				top:720px;
+			}
+			
+			#Box-Tribe-Style_09{
+				top:780px;
+			}
+			
+			#Box-Tribe-Style_10{
+				top:1050px;
+			}
+			
+			#Box-Tribe-Style_11{
+				top:1360px;
+			}
+			
+	/*AboutUs*/
+	
+		.Box-AboutUs-Style{
+			width:1000px;
+			height:1300px;
+			background-color:;
+			
+			margin-left:-500px;
+			
+			top:200px;
+			left:50%;
+			position:absolute;
+			
+		}
+		
+		.Box-AboutUS-00{
+			width:1000px;
+			height:100px;
+			background-color:;
+			
+			margin-left:-500px;
+			
+			left:62%;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-Name{
+			width:200px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-SID{
+			width:300px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:200px;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-Worker{
+			width:500px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:500px;
+			position:absolute;
+		}
+		
+		#Box-AboutUS_S01{
+			top:380px;
+		}
+		
+		#Box-AboutUS_S02{
+			top:480px;
+		}
+		
+		#Box-AboutUS_S03{
+			top:580px;
+		}
+		
+		#Box-AboutUS_S04{
+			top:680px;
+		}
+		
+		#Box-AboutUS_S05{
+			top:780px;
+		}
+			
+/*Box-mainContent_home-2--------------------------------------------------------*/		
+	.Box-mainContent_home-2{
+		width: 100%;
+		height: 710px;
+		background-color:;
+		
+		top: 1130px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04   //banner下方*/
+	
+	
+/*Box-mainContent_home-3--------------------------------------------------------*/		
+	.Box-mainContent_home-3{
+		width: 100%;
+		height: 710px;
+		background-color: ;
+		
+		top: 1840px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04*/
+	
+	.Box-BG_H3v1_3{
+		width: 100%;
+		height: 100%;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		background-image:url(../img/HomePage-3/HomePage3-v1_3.jpg);
+		background-repeat: repeat;
+		opacity:0.2;
+	
+	}/*分隔圖A*/
+	
+	.Box-BG_H3v1_4{
+		width: 1000px;
+		height: 728px;
+		
+		margin-left:-500px;
+		
+		top: 100px;
+		left: 50%;
+		position: absolute;
+	
+	}/*分隔圖A*/
+
+/*Box-mainContent_home-4--------------------------------------------------------*/		
+	.Box-mainContent_home-4{
+		width: 100%;
+		height: 494px;
+		overflow:hidden;
+		
+		background-color:;
+		
+		top: 2550px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04*/
+	
+	.Box-homePage4_00{
+		width:400px;
+		height:100px;
+		background-color:;
+		
+		margin-left:-200px;
+		
+		
+		top:120px;
+		left:42%;
+		position:absolute;
+		
+	}/*AboutUs-title*/
+	
+	.Box-homePage4_01{
+		width:400px;
+		height:300px;
+		background-color:rgb(180,180,180);
+		
+		opacity:0.2;
+		
+		border-radius:20px;
+		
+		margin-left:-245px;
+		
+		top:100px;
+		left:44%;
+		position:absolute;
+		
+	}/*AboutUs-title*/
+	
+/*Box-Banner_home-1--------------------------------------------------------*/		
+	.Box-Banner_home-1{
+		width: 100%;
+		height: 252px;
+		background-color: #000;
+		overflow: hidden;
+		
+		top: 878px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A0X*/
+	
+	.Box-Bnner-font_home_home-1{
+		width: 400px;
+		height: 200px;
+		background-color: #black;
+		
+		top: 878px;
+		left: 50%;
+		position: absolute;
+		
+		z-index: 11;
+	}
+	
+	.Box-Banner-Logo-v1_1{
+		top: 0;
+		left: 0;
+		position: absolute;
+		
+		z-index: 11;
+	}/*未指向*/
+	
+/*Box-Bottom--------------------------------------------------------*/	
+/* E系*/
+	.Box-Bottom{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 3044px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A0N*/
+	
+	.Box-Bottom_Explore{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1680px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-Explore*/
+	
+	.Box-Bottom_News{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1180px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-News*/
+	
+	.Box-Bottom_EthnicGroup{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1680px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup-00-Festival*/
+	
+	.Box-E01{
+		width: 400px;
+		height: 100px;
+		background-color: ;
+		
+		top: 60px;
+		left: 1400px;
+		position: absolute;
+		
+		z-index: 11;
+		
+	}/*出處聲明*/
+	
+	.Box-E02{
+		width: 1000px;
+		height: 100px;
+		background-color: ;
+		
+		top: 70px;
+		left: 150px;
+		position: absolute;
+		
+		z-index: 11;
+		
+	}/*版權聲明-框架*/
+	
+	.Box-E03{
+		width: 41px;
+		height: 38px;
+		background-color: ;
+		
+		top: 20px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*版權聲明-Logo*/
+
+	.Box-E04{
+		
+		top: 20px;
+		left: 50px;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*版權聲明-內容*/
+	
+	.Box-E05{
+		
+		top: px;
+		left: 100%;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*底部快捷*/
+	
+	
+/*News.html--------------------------------*/	
+	
+	/*Home1*/
+	.Box_News-Home1_Style{
+
+		background-color:red;
+		
+		top:0px;
+		left:0px;
+		position:absolute;
+		
+		z-index:12;
+		
+	}
+	
+	
+	
+	
+	
